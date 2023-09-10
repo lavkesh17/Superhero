@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif; 
+    color :  #fff;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957);
+    letter-spacing: 2.5px; 
+}
+/* navbar */
+#custom-nav{
+    background-color: #264653 !important;
+    font-size: 1.2rem;
+}
+
+.hero-container{
+    padding: 2px 16px;
+}
+
+.hero-pic img{
+    border-radius: 4px;
+    width: 100%;
+    height : 300px;
+}
+/* hero name and fav icon styles */
+.hero-details{
+cursor: pointer;
+
+}
+.hero-details:hover{
+    transform: scale(1.1);
+}
+.fas{
+    color: #08ce5b;;
+}
+.fas:hover{
+    cursor: pointer;
+}
+
+/* details div styles */
+.wdiv{
+    width: 200px;
+    color:#FAAE7B;
+    font-family: 'Titillium Web', sans-serif;
+}
